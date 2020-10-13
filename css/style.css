@@ -25,16 +25,16 @@
 }
 
 .header_area .main-menu .navbar-nav .active a{
-    background: var(--gradient-color);
+    background: #B4C7FA;
     -webkit-background-clip: text;
-    -webkit-text-fill-color: var(--primary-color2);
+    -webkit-text-fill-color: #757DE6;
     background-clip: text;
 }
 
 .header_area .main-menu .navbar-nav a:hover{
-    background: var(--gradient-color);
+    background: #B4C7FA;
     -webkit-background-clip: text;
-    -webkit-text-fill-color: var(--primary-color2);
+    -webkit-text-fill-color: #757DE6;
     background-clip: text;
 }
 
