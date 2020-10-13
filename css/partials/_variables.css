@@ -1,0 +1,22 @@
+
+
+html, body{
+    margin: 0%;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+}
+ 
+/* CSS VARIABLES */
+
+:root{
+    --primary-color: #2127C4;
+    --primary-color2: #757DE6;
+    --primary-color3: #8CE7B4;
+    --title-color: #B4C7FA;
+    --gradient-color: linear-gradient(90deg, #2127C4 0%, #757DE6 100%);
+
+
+/* FONT FAMILY VARIABLE */
+--roboto:"Roboto", cursive;
+}

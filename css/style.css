@@ -1,0 +1,74 @@
+/*import fonts from fonts.css file */
+@import url(./fonts.css);
+
+/* css variables */
+@import url(./partials/_variables.css);
+
+
+/* START NAVIGATION */
+
+.header-area .main-menu .navbar .navbar-brand{
+    padding: 0 2rem 0 5rem
+
+}
+
+.header_area .main-menu .navbar{
+    padding: 0rem 2rem;
+}
+
+.header_area .main-menu .nav-item .nav-link{
+    font-family: var(--roboto);
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 1.7rem;
+    color: var(--title-color);
+}
+
+.header_area .main-menu .navbar-nav .active a{
+    background: var{--gradient-color};
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: #757de6;
+    background-clip: text;
+}
+
+.header_area .main-menu .navbar-nav a:hover{
+    background: var{--gradient-color};
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:  #757DE6;
+    background-clip: text;
+}
+
+#last-name {
+    color: var(--title-color);
+    font-family: var(--roboto);
+    font-weight: 500;
+    padding: 1.5rem;
+    letter-spacing: 4px;
+}
+
+/* END NAVIGATION */
+
+/* START FONT STYLING */
+
+#roboto {
+    font-family: var(--roboto);
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+
+#roboto-italic {
+    font-family: var(--roboto);
+    letter-spacing: 2px;
+    font-weight: 400;
+    font-style: italic;
+}
+
+/* END FONT STYLING */
+
+.bg {
+    background-image: url(../img/photo-1464925257126-6450e871c667.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
