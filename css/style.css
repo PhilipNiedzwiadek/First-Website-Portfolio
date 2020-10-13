@@ -39,7 +39,7 @@
 }
 
 #last-name {
-    color: var(--title-color);
+    color:  #B4C7FA;
     font-family: var(--roboto);
     font-weight: 500;
     padding: 1.5rem;
@@ -52,6 +52,7 @@
 
 #roboto {
     font-family: var(--roboto);
+    color:  #B4C7FA;
     letter-spacing: 2px;
     font-weight: 400;
 }
