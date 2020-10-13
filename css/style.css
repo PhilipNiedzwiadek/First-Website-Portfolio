@@ -25,14 +25,14 @@
 }
 
 .header_area .main-menu .navbar-nav .active a{
-    background: #B4C7FA;
+    background: var(--gradient-color);
     -webkit-background-clip: text;
     -webkit-text-fill-color: #757DE6;
     background-clip: text;
 }
 
 .header_area .main-menu .navbar-nav a:hover{
-    background: #B4C7FA;
+    background: var(--gradient-color);
     -webkit-background-clip: text;
     -webkit-text-fill-color: #757DE6;
     background-clip: text;
@@ -52,7 +52,7 @@
 
 #roboto {
     font-family: var(--roboto);
-    color:  #B4C7FA;
+    color: #B4C7FA;
     letter-spacing: 2px;
     font-weight: 400;
 }
