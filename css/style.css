@@ -21,25 +21,25 @@
     text-transform: uppercase;
     font-weight: 500;
     padding: 1.7rem;
-    color: #B4C7FA;
+    color: var(--title-color);
 }
 
 .header_area .main-menu .navbar-nav .active a{
-    background: var{--gradient-color};
+    background: var(--gradient-color);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: #757de6;
+    -webkit-text-fill-color: var(--primary-color2);
     background-clip: text;
 }
 
 .header_area .main-menu .navbar-nav a:hover{
-    background: var{--gradient-color};
+    background: var(--gradient-color);
     -webkit-background-clip: text;
-    -webkit-text-fill-color:  #757DE6;
+    -webkit-text-fill-color: var(--primary-color2);
     background-clip: text;
 }
 
 #last-name {
-    color: #B4C7FA;
+    color: var(--title-color);
     font-family: var(--roboto);
     font-weight: 500;
     padding: 1.5rem;
