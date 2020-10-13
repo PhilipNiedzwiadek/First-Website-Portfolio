@@ -17,22 +17,22 @@
 }
 
 .header_area .main-menu .nav-item .nav-link{
-    font-family: var(--roboto);
+    font-family: "Roboto", cursive;
     text-transform: uppercase;
     font-weight: 500;
     padding: 1.7rem;
-    color: var(--title-color);
+    color: #B4C7FA;
 }
 
 .header_area .main-menu .navbar-nav .active a{
-    background: var(--gradient-color);
+    background: linear-gradient(90deg, #2127C4 0%, #757DE6 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: #757DE6;
     background-clip: text;
 }
 
 .header_area .main-menu .navbar-nav a:hover{
-    background: var(--gradient-color);
+    background: linear-gradient(90deg, #2127C4 0%, #757DE6 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: #757DE6;
     background-clip: text;
@@ -40,7 +40,7 @@
 
 #last-name {
     color:  #B4C7FA;
-    font-family: var(--roboto);
+    font-family: "Roboto", cursive;
     font-weight: 500;
     padding: 1.5rem;
     letter-spacing: 4px;
@@ -51,17 +51,17 @@
 /* START FONT STYLING */
 
 #roboto {
-    font-family: var(--roboto);
+    font-family: "Roboto", cursive;
     color: #B4C7FA;
     letter-spacing: 2px;
     font-weight: 400;
 }
 
 #roboto-italic {
-    font-family: var(--roboto);
+    font-family: "Roboto", cursive;
     letter-spacing: 2px;
     font-weight: 400;
-    /*font-style: italic;*/
+    font-style: italic;
 }
 
 /* END FONT STYLING */
