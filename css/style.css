@@ -12,9 +12,9 @@
 
 }
 
-/*.header_area .main-menu .navbar{
-    padding: 0rem 2rem;
-}*/
+.header_area .main-menu .navbar{
+    padding: 0.5rem 2rem;
+}
 
 .header_area .main-menu .nav-item .nav-link{
     font-family: "Roboto", cursive;
@@ -65,6 +65,11 @@
 }
 
 /* END FONT STYLING */
+
+body, html {
+    height: 100%;
+    width: 100%;
+}
 
 .bg {
     background-image: url(../img/photo-1464925257126-6450e871c667.jpg);
